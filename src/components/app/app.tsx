@@ -1,12 +1,10 @@
-import React from 'react';
-import './app.css';
+import React from "react";
+import "./app.sass";
+
+import Homepage from "../../routes/homepage";
 
 function App() {
-  return (
-    <div>
-      Hello World
-    </div>
-  );
+  return <Homepage />;
 }
 
 export default App;
