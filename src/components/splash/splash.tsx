@@ -3,7 +3,7 @@ import "./splash.scoped.sass";
 
 function Splash() {
   return (
-    <div className="splash">
+    <div>
       <h1>DINO SHIRTS</h1>
     </div>
   );
