@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./item-directory.sass";
 
 import SquareThumb from "../square-thumbnail";

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./splash.scoped.sass";
 
 function Splash() {

@@ -1,4 +1,3 @@
-import React from "react";
 import "./homepage.sass";
 
 import ItemDirectory from "../../components/item-directory";

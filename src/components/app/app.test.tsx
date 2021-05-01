@@ -1,9 +1,6 @@
-import { screen, render } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import { renderWithRouter } from "test-utils";
 // import userEvent from "@testing-library/user-event";
-import { createMemoryHistory } from "history";
-import React from "react";
-import { Router } from "react-router-dom";
 
 import "@testing-library/jest-dom/extend-expect";
 

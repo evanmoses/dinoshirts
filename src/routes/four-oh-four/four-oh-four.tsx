@@ -1,4 +1,3 @@
-import React from "react";
 import "./four-oh-four.sass";
 
 function FourOhFour() {
