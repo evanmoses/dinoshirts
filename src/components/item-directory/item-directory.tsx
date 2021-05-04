@@ -1,17 +1,25 @@
 import { useState } from "react";
-import "./item-directory.sass";
+import styled from "styled-components/macro";
 
 import SquareThumb from "../square-thumbnail";
 
 function ItemDirectory() {
   const [itemList, setItemList] = useState([1, 2, 3, 4, 5]);
   return (
-    <div className="container">
+    <Wrapper>
       {itemList.map(item => (
         <SquareThumb key={item}>{item}</SquareThumb>
       ))}
-    </div>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.section`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+`;
 
 export default ItemDirectory;
