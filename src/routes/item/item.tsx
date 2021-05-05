@@ -1,5 +1,3 @@
-import "./item.sass";
-
 function ItemPage() {
   return <></>;
 }

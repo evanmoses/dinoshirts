@@ -1,11 +1,7 @@
-import styled from "styled-components/macro";
+import { HeaderWrapper } from "./header.styles";
 
 function Header() {
-  return <Wrapper />;
+  return <HeaderWrapper />;
 }
 
 export default Header;
-
-const Wrapper = styled.header`
-  height: 60px;
-`;

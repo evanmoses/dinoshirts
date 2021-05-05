@@ -1,5 +1,3 @@
-import "./shop.sass";
-
 function ShopPage() {
   return <></>;
 }
