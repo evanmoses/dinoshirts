@@ -1,1 +1,1 @@
-export { renderWithRouter } from "./test-utils.tsx";
+export { renderWithRouter } from "./test-utils";

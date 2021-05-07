@@ -1,13 +1,13 @@
-import ItemDirectory from "../../components/item-directory";
-import Splash from "../../components/splash";
+import ItemDirectory from "@components/item-directory";
+import Splash from "@components/splash";
 
-function Homepage() {
+const Homepage = () => {
   return (
     <>
       <Splash />
       <ItemDirectory />
     </>
   );
-}
+};
 
 export default Homepage;

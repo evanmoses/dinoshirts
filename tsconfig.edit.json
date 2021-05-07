@@ -2,7 +2,15 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "test-utils": ["./utils/test-utils"]
+      "test-utils": ["./utils/test-utils"],
+      "@components/*": ["./components/*"],
+      "@recoil/*": ["./recoil/*"],
+      "@images/*": ["./images/*"],
+      "@styles/*": ["./styles/*"],
+      "@locales/*": ["./locales/*"],
+      "@standalone/*": ["./standalone/*"],
+      "@routes/*": ["./routes/*"],
+      "@hooks/*": ["./utils/custom-hooks/*"]
     }
   }
 }

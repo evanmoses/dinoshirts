@@ -1,1 +1,1 @@
-export { default } from "./splash.tsx";
+export { default } from "./splash";

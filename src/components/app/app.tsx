@@ -1,12 +1,12 @@
 import { Switch, Route } from "react-router-dom";
 
-import Header from "../header";
-import Homepage from "../../routes/homepage";
-import FourOhFour from "../../routes/four-oh-four";
-import ShopPage from "../../routes/shop";
-import ItemPage from "../../routes/item";
+import Header from "@components/header";
+import Homepage from "@routes/homepage";
+import FourOhFour from "@routes/four-oh-four";
+import ShopPage from "@routes/shop";
+import ItemPage from "@routes/item";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -18,6 +18,6 @@ function App() {
       </Switch>
     </>
   );
-}
+};
 
 export default App;

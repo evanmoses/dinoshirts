@@ -1,1 +1,1 @@
-export { default } from './square-thumbnail.tsx'
+export { default } from "./square-thumbnail";

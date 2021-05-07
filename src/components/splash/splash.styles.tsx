@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import splash from "../../images/splash-placeholder.jpg";
+import splash from "@images/splash-placeholder.jpg";
 
 export const SplashWrapper = styled.section`
   width: 100%;

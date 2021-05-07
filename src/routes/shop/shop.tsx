@@ -1,5 +1,5 @@
-function ShopPage() {
+const ShopPage = () => {
   return <></>;
-}
+};
 
 export default ShopPage;

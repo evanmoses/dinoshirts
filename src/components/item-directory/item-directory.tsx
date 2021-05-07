@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import SquareThumb from "../square-thumbnail";
+import SquareThumb from "@components/square-thumbnail";
 
 import { ItemDirWrapper } from "./item-directory.styles";
 
-function ItemDirectory() {
+const ItemDirectory = () => {
   const [itemList, setItemList] = useState([1, 2, 3, 4, 5]);
   return (
     <ItemDirWrapper>
@@ -13,6 +13,6 @@ function ItemDirectory() {
       ))}
     </ItemDirWrapper>
   );
-}
+};
 
 export default ItemDirectory;

@@ -1,7 +1,7 @@
 import { HeaderWrapper } from "./header.styles";
 
-function Header() {
+const Header = () => {
   return <HeaderWrapper />;
-}
+};
 
 export default Header;

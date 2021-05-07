@@ -10,7 +10,7 @@ module.exports = {
       options: {
         source: "tsconfig",
         baseUrl: "./src",
-        tsConfigPath: "tsconfig.edit.json"
+        tsConfigPath: "./tsconfig.edit.json"
       }
     }
   ],

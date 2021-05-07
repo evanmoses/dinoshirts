@@ -1,5 +1,5 @@
-function ItemPage() {
+const ItemPage = () => {
   return <></>;
-}
+};
 
 export default ItemPage;
